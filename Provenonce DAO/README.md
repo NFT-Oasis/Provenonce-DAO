@@ -1,10 +1,10 @@
-# My Dapp
+# Provenonce DAO framework
 
 This project is for the blockchain application My Dapp. It contains code for the Smart Contract, web-based dapp and NodeJS server. 
 
 # Pre-requisites
 
-In order to develop and build "My Dapp," the following pre-requisites must be installed:
+In order to develop and build "Provenonce DAO," the following pre-requisites must be installed:
 
 * [Visual Studio Code](https://code.visualstudio.com/download) (or any IDE for editing Javascript)
 * [NodeJS](https://nodejs.org/en/download/)
@@ -32,9 +32,7 @@ Here are the locations of some important files:
 * Unit Tests: [packages/dapplib/tests](packages/dapplib/tests)
 * UI Test Harnesses: [packages/client/src/dapp/pages/harness](packages/client/src/dapp/pages/harness)
 
-To view your dapp, open your browser to http://localhost:5000 for the DappStarter Workspace.
-
-We ♥️ developers and want you to have an awesome experience. You should be experiencing Dappiness at this point. If not, let us know and we will help. Visit [https://support.decentology.com](https://support.decentology.com) or hit us up on Twitter @decentology.
+To view your dapp, open your browser to http://localhost:5000 
 
 ## Smart Contract
 
@@ -59,8 +57,6 @@ Run the server in a separate terminal. You *must* have run `npm run deploy` for 
 Run tests using `yarn test --script=[test file]`
 
 ## Production Builds
-
-DappStarter currently does not provide blockchain migration scripts to be used in production. However, here are the scripts for generating production builds:
 
 `yarn build:prod` generates dapp bundle for production.
 
